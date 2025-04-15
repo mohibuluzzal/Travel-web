@@ -1,0 +1,40 @@
+/* only for phone responsive
+========================= */
+@media screen and (max-width: 576px) {
+    /* nav section style
+    ================== */
+    .nav-container{
+        flex-direction: column;
+    }
+    .right-content {
+        gap: 0;
+    }
+    .right-content ul{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .banner-content {
+        padding-top: 20px;
+    }
+    .banner-container h2{
+        font-size: var(--text-40);
+    }
+    .banner-container p{
+        font-size: var(--text-14);
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 20px;
+    }
+    .banner-input{
+        flex-direction: column;
+        margin: 0 auto;
+        margin: 20px;
+    }
+    .banner-input input, select{
+        width: 100%;
+    }
+    .banner-input button{
+        width: 100%;
+    }
+}
