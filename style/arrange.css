@@ -172,3 +172,23 @@ header, main{
         padding-left: 10px;
         color: var(--text-more-light);
     }
+
+    /* popular tour section styles
+    =========================== */
+    .popular-container{
+        margin-top: 100px;
+        display: flex;
+        gap: 50px;
+    }
+    .popular-left-contaier{
+        width: 50%;
+    }
+    .popular-right-container{
+        width: 50%;
+    }
+    .popular-right-container img{
+        width: 100%;
+    }
+    .popular-left-contaier button{
+        margin-top: 40px;
+    }

@@ -37,4 +37,18 @@
     .banner-input button{
         width: 100%;
     }
+
+     /* popular tour section styles
+    =========================== */
+    .popular-container{
+        flex-direction: column;
+    }
+    .popular-left-contaier{
+        width: 98%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .popular-right-container{
+        width: 98%;
+    }
 }
