@@ -101,7 +101,7 @@ header, main{
     background-color: #FF5400;
     border: none;
     color: white;
-    width: 120px;
+    min-width: 120px;
     height: 38px;
     border-radius: 8px;
 }
@@ -234,3 +234,225 @@ header, main{
         font-weight: var(--font-800);
         transform: translate(-50%, -50%);
     }
+
+    /* why choose section style
+    ======================== */
+    .choose-content{
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+    .choose-div-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding: 40px 20px;
+    }
+    .choose-div{
+        border-radius: 10px;
+        padding: 20px;
+        width: 50%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+        text-align: left;
+    }
+    .choose-div img{
+        width: 7%;
+    }
+    .choose-first{
+        display: flex;
+        gap: 24px;
+    }
+    .choose-second{
+        display: flex;
+        justify-content: center;
+    }
+    .hotel-part{
+        box-sizing: border-box;
+        border: 1px solid rgba(251, 181, 99, 0.2);
+        border-radius: 16px;
+        background: rgba(251, 181, 99, 0.05);
+    }
+    .map-part{
+        box-sizing: border-box;
+        border: 1px solid rgba(41, 206, 246, 0.2);
+        border-radius: 16px;
+        background: rgba(41, 206, 246, 0.05);
+    }
+    .discount-part{
+        box-sizing: border-box;
+        border: 1px solid rgba(233, 68, 68, 0.2);
+        border-radius: 16px;
+        background: rgba(233, 68, 68, 0.05);
+    }
+
+    /* deals section style
+    =================== */
+    .deals-content-top{
+        text-align: center;
+    }
+    .deals-img{
+        height: 500px;
+        background-image: url(../Images/deal_1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        margin-bottom: 24px;
+    }
+    .deals-img-second{
+        height: 500px;
+        background-image: url(../Images/deal_2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        margin-bottom: 24px;
+    }
+    .deals-box-content{
+        width: 610px;
+        height: 400px;
+        box-sizing: border-box;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 16px;
+        backdrop-filter: blur(5px);
+        background: rgba(255, 255, 255, 0.6);
+        position: absolute;
+        top: 11%;
+        left: 46%;
+        padding-left: 45px;
+        padding-top: 45px;
+    }
+    .deals-box-content-second{
+        width: 610px;
+        height: 400px;
+        box-sizing: border-box;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 16px;
+        backdrop-filter: blur(5px);
+        background: rgba(255, 255, 255, 0.6);
+        position: absolute;
+        top: 11%;
+        right: 46%;
+        padding-left: 45px;
+        padding-top: 45px;
+    }
+    .deals-icon{
+        display: flex;
+        gap: 20px;
+        
+    }
+    .first-icon{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .btn-second{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .deals-container button{
+        padding: 10px;
+       
+    }
+
+    /* simple section style
+    =================== */
+    .simple-container{
+        display: flex;
+        margin-top: 100px;
+        gap: 25px;
+    }
+    .simple-content{
+        width: 50%;
+    }
+    .simple-img{
+        width: 50%;
+    }
+    .simple-img img{
+        width: 100%;
+    }
+
+    /* newsletter section style
+    ======================== */
+   .newsletter-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 100px;
+   }
+   .newsletter-inputs{
+    width: 40%;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 84, 0);
+    border-radius: 16px;
+    padding: 40px
+   }
+   .newsletter-inputs input{
+    margin-top: 16px;
+    width: 95%;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+   }
+   .newsletter-inputs button{
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin-top: 16px;
+   }
+   .newsletter-img{
+    width: 60%;
+    position: relative;
+   }
+   .newsletter-img img{
+    width: 100%;
+   }
+   .newsletter-img button{
+    width: 260px;
+    height: 100px;
+    border-radius: 16px;
+    background: rgb(255, 84, 0);
+    border: none;
+    position: absolute;
+    right: 1%;
+    top: 68%;
+    rotate: -20deg;
+   }
+   .newsletter-img button p{
+    margin-top: 15px;
+   }
+
+   /* footer section style
+   ===================== */
+   .foot{
+    background: rgba(19, 19, 24, 0.05);
+    padding-top: 110px;
+    padding-bottom: 110px;
+   }
+   .foot .left-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .foot p{
+    text-align: center;
+   }
+   .social{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+   }
+   .foot hr{
+    width: 65%;
+    margin-bottom: 50px;
+   }

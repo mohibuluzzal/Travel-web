@@ -78,4 +78,69 @@
         gap: 24px;
         margin-top: 24px;
     }
+
+    /* why choose section style
+    ======================== */
+    .choose-first{
+        flex-direction: column;
+    }
+    .choose-div{
+        width: 100%;
+    }
+
+    /* deals section style
+    =================== */
+    .deals-img{
+        width: 100%;
+    }
+    .deals-box-content{
+        width: 100%;
+        margin: 0 auto;
+        left: 0%;
+    }
+    .deals-box-content-second{
+        width: 100%;
+        margin: 0 auto;
+        left: 0%;
+    }
+    .btn-second{
+        display: none;
+    }
+
+    /* simple section style
+    ==================== */
+    .simple-container{
+        flex-direction: column;
+    }
+    .simple-content{
+        width: 100%;
+        /* padding-left: 10px; */
+    }
+    .simple-img{
+        width: 100%;
+    }
+    
+    /* newsletter section style
+    ======================== */
+    .newsletter-container{
+        flex-direction: column;
+    }
+    .newsletter-inputs{
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid rgb(255, 84, 0);
+        border-radius: 16px;
+        padding: 40px
+       }
+       .newsletter-img{
+        width: 100%;
+       }
+       .newsletter-img button{
+        right: 1%;
+        top: 60%;
+       }
+
+        /* footer section style
+        ===================== */
+        
 }
